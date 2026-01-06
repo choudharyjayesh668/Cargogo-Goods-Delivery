@@ -1,0 +1,197 @@
+body{
+    background-color: #f3f2ee;
+    position: relative;
+    margin: 0;
+}
+.navigationbar{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    
+    position: sticky;
+    z-index: 10; 
+    top: 2rem;
+    background: rgba(243, 242, 238, 0.45);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+    border-radius: 18px; 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+.logo{
+    width: 30%;
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.3s;
+    text-shadow: 0 0 45px rgb(11, 35, 68);
+}
+.sociallink{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-items: start;
+    gap: 3rem;
+    
+}
+.sociallink a{
+    text-decoration: none;
+    color: #1F3A5F;
+    font-size: 1.5rem;
+    opacity: 0.85;
+}
+.sociallink a:hover{
+    color: #112b44;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: end;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.85;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    opacity: 1;
+}
+.fa-regular{
+    margin-right: 0.5rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+.heading h1{
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.heading p{
+    margin-top: 1rem;
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f3f2ee;
+    width: 70%;
+    margin: auto;
+}
+.minibox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 20px;
+    align-content: center;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px #072142;
+}
+.minibox img{
+  width: 10rem;  
+  margin-top: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #092252;
+}
+.minibox img:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: 0 0 20px #092252;
+  cursor: pointer;
+}
+.minibox h3{
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    white-space: nowrap;   
+}
+.minibox h3:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+    text-shadow: 0 10px 25px rgba(11, 35, 68, 0.3);
+}
+.minibox .p1{
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.minibox .p2{
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.minibox .p3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    text-align: left;
+    color: #1F3A5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.6rem;
+    white-space: nowrap;   
+}
+.minibox .p3 i{
+    color: #2fa84f; 
+    margin-right: 0.6rem;
+    font-size: 1.1rem;
+}
+.bottom{
+    background-color: #072142;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom .p7{
+    color: #f6f9ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
