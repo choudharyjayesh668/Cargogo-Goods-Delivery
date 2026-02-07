@@ -393,3 +393,252 @@ body{
     margin-bottom: 4rem;
     padding-top: 1.3rem;
 }
+//responsive
+@media (max-width: 1024px) {
+  .navigationbar,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    width: 92%;
+  }
+  .navigationbar {
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .logo {
+    width: auto;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+
+  .sociallink {
+    gap: 1.5rem;
+  }
+
+  .navlinks {
+    gap: 1.2rem;
+  }
+
+  .navlinks a {
+    font-size: 1rem;
+  }
+  .box2 {
+    height: auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .box2-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .box2-content p {
+    font-size: 1.3rem;
+  }
+  .box3 {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .box3 .content {
+    width: 45%;
+    height: auto;
+    padding-bottom: 1.5rem;
+  }
+
+  .box3 .content img {
+    width: 170px;
+  }
+  .box4 {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .box4 .minibox {
+    width: 45%;
+  }
+  .box5 {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .citybox {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .citybox h5 {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .box5 .ridenow {
+    padding: 0.7rem 4rem;
+    font-size: 1rem;
+  }
+  .bottom {
+    height: 240px;
+    padding: 2rem 1rem;
+  }
+
+  .bottom h2 {
+    font-size: 1.8rem;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .bottom {
+    height: auto !important;
+  }
+  .navigationbar,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    width: 92%;
+    margin: 1.2rem auto;
+    padding: 1rem;
+  }
+  .navigationbar {
+    position: relative;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .sociallink {
+    width: 100%;
+    justify-content: center;
+    gap: 1.4rem;
+  }
+
+  .navlinks {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navlinks a {
+    font-size: 0.95rem;
+  }
+  .box2-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .box2-content h1 {
+    font-size: 1.5rem;
+    max-width: 22ch;
+  }
+
+  .box2-content p {
+    font-size: 1.05rem;
+    max-width: 28ch;
+  }
+
+  .box2-content a {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .box3 {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .box3 .content {
+    width: 85%;
+    margin: auto;
+  }
+
+  .box3 .content img {
+    width: 130px;
+  }
+  .box4 {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .box4 .minibox {
+    width: 85%;
+    margin: auto;
+  }
+  .citybox {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .citybox h5 {
+    font-size: 1.05rem;
+    padding: 0.45rem 0.9rem;
+  }
+
+  .box5 .ridenow {
+    font-size: 0.95rem;
+    padding: 0.7rem 3rem;
+  }
+  .bottom {
+    padding: 2.5rem 1rem;
+  }
+
+  .bottom h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
